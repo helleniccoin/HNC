@@ -1,4 +1,4 @@
-HellenicCoin(HNC)  Node instractions
+#HellenicCoin(HNC)  Node instractions
 
 Operating system:  Ubuntu Server 18.04 LTS
 

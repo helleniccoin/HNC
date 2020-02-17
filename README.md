@@ -27,19 +27,33 @@ nano $HOME/.helleniccoin/helleniccoin.conf
 6. Paste the following lines in helleniccoin.conf.
 
 rpcuser=rpc_hellenic_coin
+
 rpcpassword=a_very_strong_password
+
 rpcallowip=127.0.0.1
-rpcport=15847
-tcpport=15848
+
+rpcport=16341
+
+tcpport=16342
+
 listen=1
+
 server=1
+
 txindex=1
+
 staking=0
+
 daemon=1
+
 addnode=134.209.239.128
+
 addnode=104.248.167.68
+
 addnode=167.71.73.49
+
 addnode=167.172.115.90
+
 addnode=167.71.183.51
 
 7.  Start your node with the following command.
@@ -55,35 +69,64 @@ this is the full list of RPC commands, You can also extacted from the node if yo
 
 Usage:
   helleniccoind [options]
+  
   helleniccoind [options] <command> [params]  Send command to -server or helleniccoind
+  
   helleniccoind [options] help                List commands
+  
   helleniccoind [options] help <command>      Get help for a command
 
 Options:
+
   -?                     This help message
+  
   -conf=<file>           Specify configuration file (default: helleniccoin.conf)
+  
   -pid=<file>            Specify pid file (default: helleniccoind.pid)
+  
   -datadir=<dir>         Specify data directory
+  
   -wallet=<dir>          Specify wallet file (within data directory)
+  
   -dbcache=<n>           Set database cache size in megabytes (default: 25)
+  
   -dblogsize=<n>         Set database disk log size in megabytes (default: 100)
+  
   -timeout=<n>           Specify connection timeout in milliseconds (default: 5000)
+  
   -proxy=<ip:port>       Connect through SOCKS5 proxy
+  
   -tor=<ip:port>         Use proxy to reach tor hidden services (default: same as -proxy)
+  
   -dns                   Allow DNS lookups for -addnode, -seednode and -connect
+  
   -port=<port>           Listen for connections on <port> (default: 13500 or testnet: 23500)
+  
   -maxconnections=<n>    Maintain at most <n> connections to peers (default: 125)
+  
   -addnode=<ip>          Add a node to connect to and attempt to keep the connection open
+  
   -connect=<ip>          Connect only to the specified node(s)
+  
   -seednode=<ip>         Connect to a node to retrieve peer addresses, and disconnect
+  
   -externalip=<ip>       Specify your own public address
+  
   -onlynet=<net>         Only connect to nodes in network <net> (IPv4, IPv6 or Tor)
+  
   -discover              Discover own IP address (default: 1 when listening and no -externalip)
+  
   -listen                Accept connections from outside (default: 1 if no -proxy or -connect)
+  
   -bind=<addr>           Bind to given address. Use [host]:port notation for IPv6
+  
   -dnsseed               Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)
+  
   -forcednsseed          Always query for peer addresses via DNS lookup (default: 0)
+  
   -synctime              Sync time with other nodes. Disable if time on your system is precise e.g. syncing with NTP (default: 1)
+  
+ 
   -banscore=<n>          Threshold for disconnecting misbehaving peers (default: 100)
   -bantime=<n>           Number of seconds to keep misbehaving peers from reconnecting (default: 86400)
   -maxreceivebuffer=<n>  Maximum per-connection receive buffer, <n>*1000 bytes (default: 5000)

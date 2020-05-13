@@ -6,6 +6,7 @@
 # 1. Update your Ubuntu machine.
 
 sudo apt-get update
+
 sudo apt-get upgrade
 
 # 2. Install the required dependencies.
@@ -23,6 +24,7 @@ sudo mv helleniccoind /usr/bin/
 # 5. Create the config file.
 
 mkdir $HOME/.helleniccoin
+
 nano $HOME/.helleniccoin/helleniccoin.conf
 
 # 6. Paste the following lines in helleniccoin.conf.

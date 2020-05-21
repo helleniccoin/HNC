@@ -15,7 +15,7 @@ sudo apt-get install libboost-filesystem-dev libboost-program-options-dev libboo
 
 # 3. Download & Extract the tar file.
 
-wget "https://helleniccoin-daemon-linux.tar.gz" -O helleniccoin-daemon-linux.tar.gz
+wget "https://github.com/helleniccoin/HNC/raw/master/helleniccoin-daemon-linux.tar.gz" -O helleniccoin-daemon-linux.tar.gz
 
 tar -xzvf helleniccoin-daemon-linux.tar.gz
 

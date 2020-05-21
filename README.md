@@ -13,7 +13,9 @@ sudo apt-get upgrade
 
 sudo apt-get install libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev libdb-dev libdb++-dev libminiupnpc-dev
 
-# 3. Extract the tar file.
+# 3. Download & Extract the tar file.
+
+wget "https://helleniccoin-daemon-linux.tar.gz" -O helleniccoin-daemon-linux.tar.gz
 
 tar -xzvf helleniccoin-daemon-linux.tar.gz
 

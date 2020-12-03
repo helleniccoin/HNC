@@ -55,7 +55,9 @@ addnode=165.232.34.187
 
 addnode=144.126.204.48
 
-addnode=167.71.73.49
+addnode=128.199.152.255
+
+addnode=143.110.237.119
 
 # 7.  Start your node with the following command.
 

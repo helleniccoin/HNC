@@ -51,15 +51,11 @@ staking=0
 
 daemon=1
 
-addnode=134.209.239.128
+addnode=165.232.34.187
 
-addnode=104.248.167.68
+addnode=144.126.204.48
 
 addnode=167.71.73.49
-
-addnode=167.172.115.90
-
-addnode=167.71.183.51
 
 # 7.  Start your node with the following command.
 

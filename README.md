@@ -51,11 +51,13 @@ staking=0
 
 daemon=1
 
-addnode=165.232.34.187
+addnode=134.122.101.163
 
-addnode=144.126.204.48
+addnode=159.89.4.26
 
-addnode=128.199.152.255
+addnode=206.189.100.130
+
+addnode=46.101.129.115
 
 addnode=143.110.237.119
 
